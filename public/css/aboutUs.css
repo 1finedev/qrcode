@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.about-smart{
+ position: relative;
+ width: 100%;
+ 
+}
+.image{
+    display:contents;
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   /* background: rgba(78, 78, 78, 0.6);*/
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image-overlay a{
+    text-decoration: none;
+    background-color: rgb(50, 50, 240);
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.image-overlay h1{
+     padding-top: 70px;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system,
+     BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+/*.container{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+    
+}*/
+/*.grid-box img{
+    width: 50%;
+}*/
+
+.grid-box{
+    align-content: center;
+    display: grid;
+    width: 60em;
+    grid-template-areas: 
+    "b b a a d d d d d"
+    "b b c c d d d d  d" 
+    ;
+    padding: 30px;
+    text-align: center;
+    margin-left: 60px;
+   /* margin-right: 15%;*/
+    
+}
+.box-1{
+     grid-area: c;
+     margin-top: 40px;
+     
+}
+.box-1 img{
+    width: 90%;
+}
+.box-2{
+    grid-area: b;
+    margin-top: 140px;
+    margin-left: 90px;
+}
+.box-2 img{
+    width: 90%;
+}
+.box-3{
+    grid-area: a;
+    
+}
+.box-3 img{
+    width: 90%;
+}
+.box-4{
+    grid-area: d;
+    text-align: left;
+    padding-top: 30px;
+    
+}
+
+.grid-box h2{
+    color: blue;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+}
+p{
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px; 
+    font-weight: bold;
+}
+.container-2{
+    text-align: center;
+    padding: 10px;
+    width: 100vw;
+  /*  margin-left: 20%;*/
+    background-color: rgb(231, 243, 243);
+}
+.container-2 img{
+    width: 200px;
+    height: 100px;
+}
+.container-2 h2{
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px; 
+    font-weight: bold;
+    color:rgb(50, 50, 240);
+}
+.container-2 h3{
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px; 
+    font-weight: bold;
+    color:rgb(50, 50, 240);
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 15px;
+    margin-left: 10%;
+}
+.products{
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+
+.Business-card{
+    width: 100%;
+    flex: 2;
+    padding: 10px;
+}
+.websites{
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+.generate-code{
+    padding: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.generate-code a{
+    text-decoration: none;
+    background-color: rgb(50, 50, 240);
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 40px;
+    color: white;
+}
+.generate-code h2{
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px; 
+    font-weight: bold;
+    color:rgb(50, 50, 240);
+}
+.Code{
+    padding: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.services a{
+    opacity: 0;
+}
+
+
+
+@media (max-width: 1000px) {
+    .about-smart{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: fit-content;
+        padding: 0;
+        position: relative;
+        
+    }
+    .image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .image-overlay h1{
+        font-size: 27px;
+        padding-top: 110px;
+    }
+    .image-overlay a{
+    text-decoration: none;
+    background-color: rgb(50, 50, 240);
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+    width: 120px;
+    text-align: center;
+    margin-top: 30px;
+    
+    }
+   
+    .grid-box{
+    align-items: center;
+    display: grid;
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    grid-template-areas: 
+    "e a"
+    "b c"
+    "d d" 
+    ;
+    
+    }
+    .box-2 img{
+        width: 80%;
+    }
+    .box-1 img{
+        width: 80%;
+    }
+    .box-3 img{
+        width: 80%;
+    }
+    .box-1{
+        grid-area: c;
+        padding: 0;
+        margin: 0;
+    }
+    .box-2{
+        grid-area: b;
+        margin: 0;
+        padding: 0;
+    }
+    .box-3{
+        grid-area: a;
+      
+        padding: 0;
+    }
+    .box-4{
+        grid-area: d;
+        
+        
+        padding: 0;
+        text-align: center;
+        
+    }
+    .container-2{
+    text-align: center;
+    width: 100vw;
+    background-color: rgb(231, 243, 243);
+    align-content: center;
+    justify-content: center;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        width: fit-content;
+    }
+    .services a{
+        opacity: 1;
+        text-decoration: none;
+        background-color: rgb(50, 50, 240);
+        border-radius: 20px;
+        padding: 10px;
+        color: white;
+        
+    }
+    .gencode{
+        margin-top: 10%;
+        padding-bottom: 10px;
+        
+    }
+    .products{
+        flex: 2;
+    }
+    .Business-card{
+        flex: 2;
+    }
+    .generate-code{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .Code{
+        padding: 40px;
+        margin-top: 20px;
+        margin-right: -30px;
+    }
+    
+    h1{
+        font-size: 24px;
+    }
+    
+    .generate-code h2{
+        font-size: 20px;
+    }
+    .container-2 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .grid-box h2{
+        font-size: 24px;
+        text-align: center;
+        max-lines: 3;
+    }
+    
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+}

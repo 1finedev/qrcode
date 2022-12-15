@@ -1,0 +1,103 @@
+.header {
+	gap: 1rem;
+	align-items: center;
+	width: 85%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 3rem;
+}
+
+.heading {
+	color: var(--primary-light);
+	font-size: 2rem;
+}
+
+.subheading {
+	margin-bottom: 3rem;
+}
+
+form {
+	width: 90%;
+	margin: 0 auto;
+	gap: 1rem;
+}
+.form-group {
+	gap: 0.3rem;
+}
+
+label {
+	font-weight: 500;
+}
+
+input {
+	padding: 0.8rem;
+	border-radius: 5px;
+}
+
+.form-submit {
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	margin: 3rem auto;
+	margin-top: 2rem;
+}
+.save-qr {
+	border: 1px solid #1768ef;
+	border-radius: 10px;
+	color: #1768ef;
+	padding: 0.7rem 1rem;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.generate-qr {
+	background: #1768ef;
+	color: white;
+	border-radius: 10px;
+	border: 0;
+	width: 80%;
+	justify-content: center;
+	gap: 0.5rem;
+	padding: 0.7rem 1rem;
+}
+
+.generate-qr img {
+	width: 20px;
+}
+
+@media (min-width: 768px) {
+	.header {
+		width: 55%;
+	}
+
+	.subheading {
+		margin-bottom: 3rem;
+	}
+
+	form {
+		width: 55%;
+	}
+
+	.form-submit {
+		flex-direction: row;
+		gap: 1.5rem;
+	}
+	.save-qr {
+		width: auto;
+	}
+
+	.generate-qr {
+		width: auto;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	.header {
+		width: 40%;
+	}
+
+	form {
+		width: 40%;
+	}
+}

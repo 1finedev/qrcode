@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 80vh;
+    color: aliceblue;
+    
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    background-color: white;
+    color: #000;
+}
+
+header .logo {
+    position: relative;
+    width: 70px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+
+.signIn {
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-image: linear-gradient(green, black, blue);
+    color: white;
+}
+.contact {
+    position: relative;
+    top: 100px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/img/background.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.side1 {
+    padding: 100px;
+}
+
+.side1 h1 {
+    font-size: 70px;
+}
+.side1 p {
+    font-size: 40px;
+}
+
+.side2 {
+    padding: 100px;
+
+}
+.side2 Img {
+    width: 600px;
+}
+
+.contact-card {
+    position: relative;
+    border-radius: 30px;
+    background-color: white;
+    color: #000;
+    padding: 100px 80px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-form {
+    display: flex;
+}
+
+.contact-card h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+
+}
+.form1 {
+    width: 50%;
+}
+.form2 {
+    width: 50%;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    padding: 30px 20px;
+    width: 90%;
+    background-color: #F8F9FC;
+    border: 0px;
+    color: #0A0D14;
+}
+.formField1 {
+    padding: 50px 10px;
+}
+
+.formField2 {
+    padding: 50px 10px;
+}
+
+.messageArea{
+    padding: 50px 10px;
+}
+
+textarea {
+    background-color: #F8F9FC;
+    border: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.submit {
+    background-color: #1768EF;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 0;
+    float: right;
+    font-size: 20px
+}
+
+footer {
+    background-color: #1B1F27;
+    padding: 90px;
+}
+
+footer .fLogo{
+    width: 180px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.bFooter {
+    background-color: #99D3CC;
+    position: relative;
+    padding: 50px;
+    
+}
+.tClient {
+    background-color: #000;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(green, black, blue)
+} 
+
+.contactUs {
+    background-color: #ffffff;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 20px;
+    
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 0px;
+
+}
+
+footer h1 {
+    padding: 20px 0px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width:414px) {
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            min-height: 70vh;
+            color: aliceblue;
+    
+        }
+    
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.6s;
+            padding: 40px 100px;
+            background-color: white;
+            color: #000;
+        }
+    
+        header .logo {
+            position: relative;
+            width: 70px;
+        }
+    
+        header ul {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        header ul li {
+            position: relative;
+            list-style: none;
+        }
+    
+        header ul li a {
+            position: relative;
+            margin: 0 20px;
+            text-decoration: none;
+            color: #000;
+            transition: 0.5s;
+        }
+    
+        .signIn {
+            padding: 10px 40px;
+            border-radius: 50px;
+            background-image: linear-gradient(green, black, blue);
+            color: white;
+        }
+    
+        .contact {
+            position: relative;
+            top: 100px;
+            left: 0;
+            display: flex;
+            /* justify-content: space-between; */
+            /* align-items: center; */
+            background-image: url(/img/background.png);
+            height: 70vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+        .side1 {
+            padding: 50px;
+        }
+    
+        .side1 h1 {
+            font-size: 50px;
+        }
+    
+        .side1 p {
+            font-size: 30px;
+        }
+    
+      
+        .side2 Img {
+            width: 200px;
+        }
+    
+        .contact-card {
+            position: relative;
+            border-radius: 30px;
+            background-color: white;
+            color: #000;
+            padding: 100px 20px;
+            width: 90%;
+            margin-top: 80px;
+            justify-content: center;
+            align-content: center;
+        }
+    
+        .contact-form {
+            display: flex;
+        }
+    
+        .contact-card h1 {
+            font-size: 30px;
+            padding-bottom: 20px;
+    
+        }
+    
+        .form1 {
+            width: 100%;
+        }
+    
+        .form2 {
+            width: 100%;
+        }
+    
+        label {
+            font-size: 20px;
+        }
+    
+        input {
+            padding: 30px 20px;
+            width: 100%;
+            background-color: #F8F9FC;
+            border: 0px;
+            color: #0A0D14;
+        }
+    
+        .formField1 {
+            padding: 50px 10px;
+        }
+    
+        .formField2 {
+            padding: 50px 10px;
+        }
+    
+        .messageArea {
+            padding: 50px 10px;
+        }
+    
+        textarea {
+            background-color: #F8F9FC;
+            border: 0;
+            padding: 20px;
+            width: 100%;
+        }
+    
+        .submit {
+            background-color: #1768EF;
+            color: white;
+            padding: 10px 50px;
+            border-radius: 50px;
+            border: 0;
+            float: right;
+            font-size: 20px
+        }
+    
+        footer {
+            background-color: #1B1F27;
+            padding: 90px;
+        }
+    
+        footer .fLogo {
+            width: 180px;
+            padding-left: 70px;
+            padding-top: 40px;
+        }
+    
+        .bFooter {
+            background-color: #99D3CC;
+            position: relative;
+            padding: 50px;
+    
+        }
+    
+        .tClient {
+            /* background-color: #000; */
+            padding: 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            border-radius: 20px;
+            width: 80%;
+            margin: auto;
+            background-image: linear-gradient(green, black, blue)
+        }
+    
+        .contactUs {
+            background-color: #ffffff;
+            padding: 10px 40px;
+            border: 0;
+            border-radius: 30px;
+            font-size: 20px;
+            margin-top: 20px;
+    
+        }
+    
+        footer section {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        footer ul li {
+            text-decoration: none;
+            list-style: none;
+            padding: 5px 0px;
+    
+        }
+    
+        footer h1 {
+            padding: 20px 0px;
+        }
+    
+        footer ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+}
+
+
+
+
+/* Generate Website information css */
+main div {
+    position: relative;
+    top: 60px;
+    padding: 100px 200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+main div h1 {
+    color: #1768EF;
+    font-size: 100px;
+}
+
+main div p {
+    color: #000;
+    font-size: 40px;
+}
+
+.websiteInformation {
+    color: #000;
+}
+
+.websiteInformation div {
+    padding: 20px 100px;
+}
+
+.wB {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.saveinfo {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border-color: #1768EF;
+    color: #1768EF;
+    font-size: 20px;
+}
+
+.generateQR {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: #1768EF;
+    border-color: none;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1192px) {
+    .contact {
+        position: relative;
+        top: 100px;
+        left: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(/img/background.png);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form1 {
+        width: 100%;
+    }
+
+    .form2 {
+        width: 100%;
+    }
+
+    .tClient {
+        background-color: #000;
+        padding: 30px 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 30px;
+        border-radius: 20px;
+        width: 80%;
+        margin: auto;
+        background-image: linear-gradient(green, black, blue)
+    }
+
+    footer section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .side2 Img {
+        width: 300px;
+        padding-top: 100px;
+    }
+
+    @media screen and (max-width:375px) {
+        main div {
+                position: relative;
+                top: 60px;
+                padding: 50px 20px;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+            }
+        
+            main div h1 {
+                color: #1768EF;
+                font-size: 50px;
+            }
+        
+            main div p {
+                color: #000;
+                font-size: 20px;
+            }
+        
+            .websiteInformation {
+                color: #000;
+            }
+        
+            .websiteInformation div {
+                padding: 10px;
+            }
+        
+            .wB {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+        
+            }
+        
+            .saveinfo {
+                padding: 10px 120px;
+                border-radius: 10px;
+                background-color: #ffffff;
+                border-color: #1768EF;
+                color: #1768EF;
+                font-size: 20px;
+            }
+        
+            .generateQR {
+                padding: 10px 130px;
+                margin-top: 10px;
+                border-radius: 10px;
+                background-color: #1768EF;
+                border-color: none;
+                color: #ffffff;
+                border: none;
+                font-size: 20px;
+
+            }
+                        .bFooter {
+                            background-color: #99D3CC;
+                            position: relative;
+                            margin-top: 30px;
+            
+                        }
+                        .tClient {
+                            /* background-color: #000; */
+                            padding: 20px 20px;
+                            display: flex;
+                            justify-content: space-between;
+                            font-size: 20px;
+                            border-radius: 20px;
+                            width: 80%;
+                            margin: auto;
+                            background-image: linear-gradient(green, black, blue)
+                        }
+            
+                        .contactUs {
+                            background-color: #ffffff;
+                            padding: 10px 40px;
+                            border: 0;
+                            border-radius: 30px;
+                            font-size: 20px;
+                            margin-top: 20px;
+            
+                        }
+            
+                        footer section {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+            
+                        footer ul li {
+                            text-decoration: none;
+                            list-style: none;
+                            padding: 5px 0px;
+            
+                        }
+            
+                        footer h1 {
+                            padding: 20px 0px;
+                        }
+            
+                        footer ul li a {
+                            text-decoration: none;
+                            color: #ffffff;
+                        }
+                        }
+    }
+
+
+    /* QR CODE GENERATED CSS */
+
+.qrCodegen h1{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.saveinfo {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border-color: #1768EF;
+    color: #1768EF;
+    font-size: 20px;
+}
+
+.generateQR {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: #1768EF;
+    border-color: none;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+}
